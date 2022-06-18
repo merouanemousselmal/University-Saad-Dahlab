@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Hiba Chemchat, Naima Fodil, Feriel Abbad">
+    <link rel="stylesheet" href="/font.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="icon" href="/imgs/logoblanc.png">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/quiries/contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html"><img class="logo" src="/imgs/logoblanc.png" alt="University logo"></a>
+    <nav class="main-nav">
+        <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="université.html">University</a></li>
+        <li><a class="main-nav-link" href="faculté.html">Faculty</a></li>
+        <li><a class="main-nav-link" href="département.html">Department</a></li>
+        <li><a class="main-nav-link" href="spécilité.html">Speciality</a></li>
+        <li><a class="main-nav-link" href="contact.html">Contact us</a></li>
+    </ul>
+    </nav>
+    <button class="btn-mobile-nav">
+      <i name="menu-outline" class="las la-bars  icon-mobile-nav"></i>
+      <i name="close-outline" class="las la-times icon-mobile-nav"></i>
+  </button>
+</header>
+
+    <section class="section-main container">
+        <h1>Contact Us </h1>
+        <p class="text">If you have any questions on any subject, please don't hesitate to ask us. We are all ears</p>
+        
+
+
+        <div class="form">
+            <form name="contact" netlify> 
+            <div class="nom-prenom">
+        <div  class="nom">
+            <label for="full-name">First Name </label>
+            <input class="input" name="Nom" type="text" required>
+        </div>
+        <div class="prenom">
+            <label for="full-name">Last Name</label>
+            <input class="input" name="Prénom" type="text" required>
+        </div>
+            </div>
+
+            <div class="email">
+            <label for="Email">Email</label>
+            <input class="input" name="email" type="email" required>
+            </div>
+
+            <div class="message">
+            <label for="Email">Message</label>
+            <textarea class="textarea" name="message" cols="10" rows="10" required></textarea>
+            </div>
+
+            <div class="btn">
+             <button class="btn-text" href="#">Send</button> 
+            </div>
+            </form>
+         </div>
+
+         <p class="choice">Or you can contact us directly</p>
+         <ul class="contact-list">
+             <li class="contact-info">Adress: Soumaa Blida , BD 270 , ALG</li>
+             <li class="contact-info">Telephone: 02543382530</li>
+             <li class="contact-info">E-mail: elearning@univ-blida.dz</li>
+         </ul>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-titre">
+          <h3>About</h3>
+           <p class="footer-text">This website was developed by student of Mathematics and Informatics</p>
+           <p class="footer-text">In order to present the university of saad dahleb and give a general idea</p>
+           <p class="footer-text">about the faculty of technology and its specialties</p>
+        </div>
+        <div class="footer-dev">
+          <h4>Developer</h4>
+          <ul>
+            <li>Mousselmal Merouane</li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="copyright">
+        <img class="footer-img" src="/imgs/logoblanc.png" alt="university logo">
+        <p class="copyright-text">All rights reserved</p>
+        <p class="copyright-text">SAAD DAHLEB Blida University</p>
+        <p class="copyright-text">2022</p>
+      </div>
+    </footer>
+
+
+      <script src="script.js"></script>
+</body>
+</html>

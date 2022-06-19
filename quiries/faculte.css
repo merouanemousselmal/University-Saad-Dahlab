@@ -68,6 +68,11 @@
     
     .nav-open .icon-mobile-nav[name="close-outline"]{
         display: block;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        transform: translate(-50%, 50%);  
     }
     
     .nav-open .icon-mobile-nav[name="menu-outline"]{
